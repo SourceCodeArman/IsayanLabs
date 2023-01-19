@@ -1,0 +1,36 @@
+Problem Statement:
+User input: The user will input two numbers
+User Output: The program will print out the sum, difference, product, and quotient of the two numbers.
+If-Else Statement: The program will check if the second number is 0, and will print an error message if it is.
+Mathematical Computation: The program will compute the sum, difference, product, and quotient of the two numbers.
+
+Code:
+#user input
+x = input("Enter your first number: ")
+y = input("Enter your second number: ")
+
+#storing the input as integers
+num1 = int(x)
+num2 = int(y)
+
+#finding the sum, difference, product, and quotient
+sum = num1 + num2
+product = num1 * num2
+difference = num1 - num2
+quotient = num1 / num2
+
+#using If-Else Statement to check is the second number is 0
+if (num2 == 0):
+  print("Second number cannot be 0, please try again.")
+else:
+  print(f"The sum of {x} and {y} is {sum}")
+  print(f"The difference of {x} and {y} is {difference}")
+  print(f"The product of {x} and {y} is {product}")
+  print(f"The quotient of {x} and {y} is {quotient}")
+Output:
+Enter your first number: 2
+Enter your second number: 6
+The sum of 2 and 6 is 8
+The difference of 2 and 6 is -4
+The product of 2 and 6 is 12
+The quotient of 2 and 6 is 0.3333333333333333

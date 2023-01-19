@@ -1,0 +1,11 @@
+Problem Statement:
+
+Create a program that will ask a user to input a number and then the program will calculate the sum of all numbers between 0 and the number that was entered. 
+
+User Input: An integer
+
+User Output: The sum of all numbers between 0 and the number that was entered.
+
+For Loop: For loop that iterates over all integers between 0 and the number that was entered
+
+Math Computation: Add all numbers between 0 and the number that was entered

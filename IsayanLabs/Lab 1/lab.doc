@@ -1,0 +1,25 @@
+Problem Statement: Given the user input of two numbers, x and y, output the sum of x + y and the product of x*y using Python.
+Code:
+
+#user input
+x = input("Enter the first number: ")
+y = input("Enter the second number: ")
+
+#storing the numbers as integers 
+num1 = int(x)
+num2 = int(y)
+
+#finding the sum and product of the 2 numbers 
+sum = num1 + num2
+product = num1 * num2
+
+#printing the results
+print('The sum of ' + x + ' + ' + y + ' is equal to ' + str(sum))
+print('The product of ' + x + ' + ' + y + ' is equal to ' + str(product))
+
+Output:
+
+Enter the first number: 5
+Enter the second number: 5
+The sum of 5 + 5 is equal to 10
+The product of 5 + 5 is equal to 25
